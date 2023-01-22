@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <header>
+     <title>Challenge Project: Build Your Own Cheat Sheet</title>
+     <link rel="stylesheet"  href="/stylesheet.css" type="text/css"> 
+    </header>
+
+
+    <body>
+        <h1>CSS Table Reference</h1>
+        <h2>Basic Css Selectors</h2>
+     <table id="basic">
+        <thead>
+            <tr>
+                <th>Selector</th>
+                <th>Example</th>
+                <th>Descriprion</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                <span class="code">.class</span>
+                </td>
+                <td>.intro</td>
+                <td>Selects all elements with class="intro"</td>
+            </tr>
+            <tr>
+                <td>
+                <span class="code">.class1.class2</span>
+                </td>
+                <td>.name1.name2</td>
+                <td>Selects all elements with both name1 and name2 set within its class attribute</td>
+            </tr>
+            <tr>
+                <td>
+                <span class="code">.class1 .class2</span>
+                </td>
+                <td>.name1 .name2</td>
+                <td>Selects all elements with name2 that is a descendant of an element with name1</td>
+            </tr>
+            <tr>
+                <td>
+                <span class="code">#id</span>
+                </td>
+                <td>#firstname</td>
+                <td>Selects the element with id="firstname"</td>
+            </tr>
+                <td>
+                <span class="code">*</span>
+                </td>
+                <td>*</td>
+                <td>Selects all elements</td>
+            </tr>
+            </tr>
+                <td>
+                <span class="code">element</span>
+                </td>
+                <td>p</td>
+                <td>Selects all "p" elements</td>
+            </tr>
+        </tbody>
+     </table>
+    
+     <h2>Advanced Css Selectors</h2>
+     <table id="advanced">
+        <thead>
+            <tr>
+                <th>Selector</th>
+                <th>Example</th>
+                <th>Descriprion</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                <span class="code">element.class</span>
+                </td>
+                <td>p.intro</td>
+                <td>Selects all "p" elements with class="intro"</td>
+            </tr>
+            <tr>
+                <td>
+                <span class="code">element,element</span>
+                </td>
+                <td>div, p</td>
+                <td>Selects all "div" elements and all "p" elements</td>
+            </tr>
+            <tr>
+                <td>
+                <span class="code">element element</span>
+                </td>
+                <td>div p</td>
+                <td>Selects all "p" elements inside "div" elements</td>
+            </tr>
+            <tr>
+                <td>
+                <span class="code">element+element</span>
+                </td>
+                <td>div + p</td>
+                <td>Selects the first "p" element that is placed immediately after "div" elements</td>
+            </tr>
+                <td>
+                <span class="code">element>element</span>
+                </td>
+                <td>div > p</td>
+                <td>Selects all "p" elements where the parent is a "div" element</td>
+            </tr>
+            </tr>
+                <td>
+                <span class="code">element1~element2</span>
+                </td>
+                <td>p ~ ul</td>
+                <td>Selects every "ul" element that is preceded by a "p" element</td>
+            </tr>
+        </tbody>
+     </table>
+    
+    </body>
+
+
+    <footer>
+
+    </footer>
+</html>
